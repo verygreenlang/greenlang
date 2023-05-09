@@ -12,8 +12,7 @@
 
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/94466071?s=200&v=4" alt="Logo" width="140" height="140">
-  <br>Fingreen AI
+  <br>Fingreen AI - OPEN SOURCE GREENLANG
   <br>Matcher
 </h1>
 
