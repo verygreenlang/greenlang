@@ -1,0 +1,19 @@
+version: 0.1
+
+phases:
+    pre_build:
+        commands:
+        -   sudo apt-get update
+        -   sudo apt-get install -y  mysql-client
+        -   pip3 install -r requirements.txt
+        -   cp .env.dist .env
+    build:
+        commands:
+        -   pytest --cov=. tests/
+    post_build:
+        commands:
+        -   echo Build completed on `date`
+        -   rm .env
+artifacts:
+    files:
+    -   '**/*'
