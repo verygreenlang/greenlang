@@ -36,7 +36,6 @@
 ## About The Project
 FINGREEN AI is a green tech startup that leverages Explainable AI to provide ESG Data Analytics, Compliance and Risk Monitoring Solutions.
 
-This **private** repository host our Matcher for our webapp. This is develop on the side of our [open data referential](https://github.com/fingreen-ai/open)
 
 ## Usage
 
